@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
 import './App.css';
-import Parentcomp from './components/Parentcomp';
+import RefsDemo from './components/RefsDemo';
+
 
 
 class App extends Component {
   render() {
     return (
       <div className='App'>
-        <Parentcomp />
+        <RefsDemo />
       </div>
     )
   }
