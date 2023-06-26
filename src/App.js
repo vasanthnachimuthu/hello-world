@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './App.css';
-import LifecycleA from './components/LifecycleA';
+import Fragmentdemo from './components/Fragmentdemo';
 
 
 
@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-        <LifecycleA />
+        <Fragmentdemo />
       </div>
     )
   }
